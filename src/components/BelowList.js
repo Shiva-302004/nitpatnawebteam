@@ -14,7 +14,7 @@ const BelowList = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className='mt-4 ml-4 w-[100vw] sm:w-auto h-[70vh] md:h-[40vh] lg:px-32 md:px-12'>
+        <div className='mt-4 ml-4 w-[100vw] sm:w-auto h-[70vh] md:h-[40vh] lg:px-32 md:px-12 mb-10'>
             <h1 className='text-xl font-bold '>Tailored to Your Industry</h1>
             <div className='mt-8' data-aos="fade-up">
                 <div className='  right-20 absolute md:relative md:flex md:right-0 z-20'data-aos="fade-right">

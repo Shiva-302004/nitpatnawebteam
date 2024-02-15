@@ -22,7 +22,7 @@ const ChatBox = () => {
 }
 const ChatMessage=({handleclick})=>{
     return (
-        <div className='fixed z-20 w-[90vw] right-4 left-4 bottom-5 bg-white text-black h-[180px] md:h-[150px] lg:h-[95vh] lg:top-16 lg:pt-8 lg:left-10'>
+        <div className='fixed z-20 w-[90vw] right-4 left-4 bottom-5 bg-white text-black h-[180px] md:h-[150px] lg:h-[95vh] lg:top-16 lg:pt-8 lg:left-10 overflow-scroll'>
             <div className='absolute -mt-1  lg:-mt-9  h-[7px] w-[100%] pr-[4px] rounded-md bg-[#262a3f]'></div>
             <RxCross2 className='absolute right-3 top-3' onClick={handleclick}></RxCross2>
             <img src={men} className='absolute -mt-7 h-[70px] w-[70px] pr-[4px] rounded-full border border-[grey]' alt="" />
@@ -31,8 +31,10 @@ const ChatMessage=({handleclick})=>{
                 <p className='text-[14px] md:text-[16px] font-thin pl-4'>
                 Hey, how can I help you? Just in case I'm away from my desk, can you please include your name, company, phone, and email address? Thanks!
                 </p>
-                <input type="text" className='mx-4 mt-2 h-[50px] w-[80vw] border border-black rounded-lg lg:mt-[60%] xl:mt-[45%]' />
+                <div className='lg:absolute bottom-8'>
+                <input type="text" className='mx-4 mt-2 h-[50px] w-[80vw] border border-black rounded-lg ' />
                 <div className='text-center font-thin text-[14px] lg:mt-4'>chat by drift</div>
+                </div>
             </div>
         </div>
     )

@@ -40,7 +40,7 @@ const Hero = () => {
                 <source src={hero} type="video/mp4" />
             </video>
 
-            <div className={`relative mt-96  flex flex-col ml-4 mb-16  md:ml-16 lg:ml-32`} data-aos="fade-up">
+            <div className={`relative mt-80  flex flex-col ml-4 mb-16  md:ml-16 lg:ml-32`} data-aos="fade-up">
                 <div className={`bg-[#2EBD71] w-[40px] h-[40px] rounded-full mb-8 `} onClick={handleclick} ><FaPlay  className='text-white ml-2 mt-2' /></div>
                 <h2 className='text-white text-3xl font-bold lg:text-5xl' style={{textTransform:"uppercase"}}>Commercial Parking </h2>
                 <p className='text-2xl font-semibold text-white mt-3 lg:text-3xl font-[Quintessential] mb-2'>for <span className='animate'><Typewriter words={["municipalities","universities","automanufacturers","special events","airports","municipalities"]} loop={"infinite"} typeSpeed={0} deleteSpeed={10}></Typewriter></span></p>

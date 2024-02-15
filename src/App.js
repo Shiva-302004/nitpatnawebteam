@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App   overflow-hidden" style={{overflowX:"hidden",Height:"100vh",background:"white"}}>
       <Home></Home>
-      
     </div>
   );
 }
