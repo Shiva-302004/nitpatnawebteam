@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       <div className={`bg-[#2EBD71] absolute top-0 w-[100%] h-[100%] z-[45] md:h-8  ${menu ? "left-[-100%]" : "left-0"}  md:left-0 md:bg-transparent md:fixed md:top-0 overflow-y-scroll`} style={{ transition: "ease-in 0.2s" }}>
         <span className={`md:hidden text-2xl text-white ${!menu ? "menu" : ""} absolute left-2 top-2`} onClick={() => setmenu(!menu)}><RxCross2 className='hover:transform-gpu' style={{ transform: "rotate(360deg)", transition: "ease-in 3s" }} /></span>
-        <ul className='mt-16 ml-7 text-[2.5em] font-bold  md:flex md:mt-3 md:ml-[16%] lg:ml-[25%]'>
+        <ul className='mt-16 ml-7 text-[2.5em] font-bold  md:flex md:mt-3 md:ml-[25%] lg:ml-[30%]'>
           <li className={`text-[#7d7b7b] ${!menu ? "active1" : ""} md:text-sm md:${navbar ? "text-white" : "text-black"} md:ml-2 lg:ml-4`} ><Link>WhyRollpark </Link></li>
           <Link><li className={`text-[#7d7b7b] ${!menu ? "active2" : ""} md:text-sm md:${navbar ? "text-white" : "text-black"} md:ml-2 lg:ml-4`} >CaseStudies</li></Link>
           <Link><li className={`text-[#7d7b7b] ${!menu ? "active3" : ""} md:text-sm md:${navbar ? "text-white" : "text-black"} md:ml-2 lg:ml-4`} >Installation</li></Link>

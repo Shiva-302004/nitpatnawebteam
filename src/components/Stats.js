@@ -5,7 +5,7 @@ import logo2 from "../assets/logo3.png"
 import logo3 from "../assets/logo4.png"
 import logo4 from "../assets/logo5.png"
 // import logo1 from "../assets/logo2.png"
-const Stats = () => {
+const Stats = () => { 
   return (
     <>
     <div className='flex flex-col md:flex-row p-2 md:justify-evenly md:w-[100vw] lg:justify-evenly overflow-x-hidden'>
