@@ -7,8 +7,9 @@ import logo4 from "../assets/logo5.png"
 // import logo1 from "../assets/logo2.png"
 const Stats = () => {
   return (
-    <div className='flex flex-col md:flex-row p-2'>
-        <div className='flex  justify-between'>
+    <>
+    <div className='flex flex-col md:flex-row p-2 md:justify-evenly md:w-[100vw] lg:justify-evenly overflow-x-hidden'>
+        <div className='flex  justify-evenly'>
             <div className='flex flex-col md:flex-row'>
                 <div className=' flex flex-col w-[33vw] md:w-[150px]'> 
                     <div className='flex flex-row'>
@@ -30,7 +31,7 @@ const Stats = () => {
                 </div>
                 
             </div>
-            <div className='flex flex-col md:flex-row ml-6 md:ml-4'>
+            <div className='flex flex-col md:flex-row  md:ml-4 '>
             <div className=' flex flex-col w-[33vw] md:w-[150px]'> 
                     <div className='flex flex-row'>
                         <div className='mt-2'><img src={logo3} className="h-[20px] w-[40px]"alt="" /></div>
@@ -51,8 +52,10 @@ const Stats = () => {
                 </div>
             </div>
         </div>
-        <div className='text-md font-semibold flex mt-3'><span>12 + reason to choose rollpark </span><MdArrowRightAlt className='text-xl ml-2 mt-1'></MdArrowRightAlt> </div>
+        <div className='text-md font-semibold flex mt-3 md:mt-0 md:font-thin'><span className='md:flex md:flex-col '><span className='md:text-end md:mr-1 md:text-3xl '>12 +</span> <span className='md:text-[15px]'>reason to choose rollpark</span> </span><MdArrowRightAlt className='text-xl ml-2 mt-1 bg-[#2EBD71] rounded-full md:mt-5'></MdArrowRightAlt> </div>
     </div>
+    <hr className='w-[100vw]'/>
+    </>
   )
 }
 
