@@ -12,7 +12,7 @@ const Footer = () => {
     }, [])
     return (
         <div className=' '>
-            <section className='bg-[#2EBD71] flex  pl-[2.1875em] pt-[1.25em] pr-[1.875em] pb-[1.25em] justify-center items-center  'data-aos="fade-up" data-aos-duration="3000">
+            <section className='bg-[#2EBD71] flex  pl-[2.1875em] pt-[1.25em] pr-[1.875em] pb-[1.25em] justify-center items-center  'data-aos="fade-up" data-aos-duration="10000">
                 <div className='flex flex-col justify-center items-center w-[70vw] md:w-auto'>
                     <h1 className='text-xl md:text-3xl font-semibold mb-2'>Request a proposal</h1>
                     <h4 className='text-md opacity-60 font-thin'>Leave your details for our manager to contact you.</h4>
@@ -22,8 +22,8 @@ const Footer = () => {
                     <p className='text-[12px] opacity-40'>Save on your next parking project with Rollpark, the most advanced and eco-friendly semi-permanent parking solution to date.</p>
                 </div>
             </section>
-            <section className='p-6 flex justify-between lg:px-20 lg:h-[12vh]' data-aos="fade-up" data-aos-duration="1600">
-                <div className='md:flex md:justify-between w-[100vw]'>
+            <section className='p-6 flex justify-between lg:px-20 lg:h-[12vh]' >
+                <div className='md:flex md:justify-between w-[100vw]' >
                     <div className='md:ml-12'>
 
                     <div className='font-bold text-sm '>Rollpark</div>

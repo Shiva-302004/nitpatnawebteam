@@ -9,8 +9,9 @@ function App() {
     AOS.init({duration:2000})
   })
   return (
-    <div className="App   overflow-hidden" style={{overflowX:"hidden",minHeight:"100vh",background:"white"}}>
+    <div className="App   overflow-hidden" style={{overflowX:"hidden",Height:"100vh",background:"white"}}>
       <Home></Home>
+      
     </div>
   );
 }

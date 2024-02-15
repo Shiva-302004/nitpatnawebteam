@@ -18,31 +18,31 @@ const BelowList = () => {
             <h1 className='text-xl font-bold '>Tailored to Your Industry</h1>
             <div className='mt-8' data-aos="fade-up">
                 <div className='  right-20 absolute md:relative md:flex md:right-0 z-20'data-aos="fade-right">
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 0 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 0 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={truck} onClick={() => setclick(0)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0' >Autologistics</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 1 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 1 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={truck2} onClick={() => setclick(1)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0'>Auto- Manufacturing</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 2 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 2 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={calendar} onClick={() => setclick(2)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-3'>Events</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 3 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 3 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={chair} onClick={() => setclick(3)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0'>HollyWood</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 4 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 4 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={drop} onClick={() => setclick(4)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0'>Permitting Restrictions</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 5 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 5 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img className='w-[57px ] h-[57px ] rounded-full' src={clock} onClick={() => setclick(5)} alt="" />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0'>Universities</span>
                     </div>
-                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey]  md:ml-3 md:mt-0 rounded-full ${click === 6 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
+                    <div className={`w-[65px]  h-[65px]  font-semibold text-[grey] mt-2  md:ml-3 md:mt-0 rounded-full ${click === 6 ? "border  border-[orange] p-1" : ""} md:flex-col flex`}>
                         <img src={clock} className='w-[57px ] h-[57px ] bg-white  rounded-full' alt="" onClick={() => setclick(6)} />
                         <span className='ml-4 mt-4 text-[9px] md:ml-0 '>Parking managers</span>
                     </div>
