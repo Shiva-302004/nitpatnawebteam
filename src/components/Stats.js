@@ -7,7 +7,7 @@ import logo4 from "../assets/logo5.png"
 // import logo1 from "../assets/logo2.png"
 const Stats = () => { 
   return (
-    <div className='bg-white pt-6'>
+    <div className='bg-white '>
     <div className='flex flex-col md:flex-row p-2 md:justify-evenly md:w-[100vw] lg:justify-evenly overflow-x-hidden'>
         <div className='flex  justify-evenly'>
             <div className='flex flex-col md:flex-row'>

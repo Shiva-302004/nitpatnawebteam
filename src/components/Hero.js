@@ -37,7 +37,7 @@ const Hero = () => {
     }
     return (
         <div className={`bg-white ${!click?"h-[100vh] overflow-y-hidden":""}`}>
-            <video className={`w-[100vw] absolute  bg-cover  object-cover  ${click?" top-0 left-0 h-[100vh] z-50 fixed ":" h-[90vh] "} hii `} ref={videoref} poster={poster}  >
+            <video className={`w-[100vw] absolute  bg-cover  object-cover  ${click?" top-0 left-0 h-[100vh] z-50 md:z-[60] fixed ":" h-[90vh] "} hii `} ref={videoref} poster={poster}  >
                 <source src={hero} type="video/mp4" />
             </video>
 
@@ -47,8 +47,8 @@ const Hero = () => {
                 <p className='text-2xl font-semibold text-white mt-3 lg:text-3xl font-[Quintessential] mb-2'>for <span className='animate'><Typewriter words={["municipalities","universities","automanufacturers","special events","airports","municipalities"]} loop={"infinite"} typeSpeed={0} deleteSpeed={10}></Typewriter></span></p>
                 <p className='text-white text-sm font-medium flex mt-3 mb-3'>Not Asphalt. Not Gravel.<span className='ml-1 text-[#2EBD71] flex '><p>GeoTextile.</p><span className=' text-[12px] text-black bg-[#2EBD71] rounded-full w-[20px] h-[20px] ml-2 mt-[0.5px]'><MdOutlineQuestionMark className='ml-1 mt-1'></MdOutlineQuestionMark></span></span></p>
             </div>
-            <div className={`bg-[#2EBD71] w-[40px] h-[40px] rounded-full mb-3 absolute bottom-4 z-50 ml-6 md:z-50 ${click?"visible":"hidden"}`} onClick={handleclick1} ><IoIosPause  className='text-white ml-2 mt-2' /></div>
-            <div className={`bg-[#2EBD71] w-[40px] h-[40px] rounded-full mb-3 absolute top-4 z-50 right-6 md:z-50 ${click?"visible":"hidden"}`} onClick={handleclick} ><RxCross2  className='text-white ml-2 mt-2' /></div>
+            <div className={`bg-[#2EBD71] w-[40px] h-[40px] rounded-full mb-3 absolute bottom-4 z-50 ml-6 md:z-[60] ${click?"visible":"hidden"}`} onClick={handleclick1} ><IoIosPause  className='text-white ml-2 mt-2' /></div>
+            <div className={`bg-[#2EBD71] w-[40px] h-[40px] rounded-full mb-3 absolute top-4 z-50 right-6 md:z-[60] ${click?"visible":"hidden"}`} onClick={handleclick} ><RxCross2  className='text-white ml-2 mt-2' /></div>
             <div className='absolute  w-[100vw] overflow-x-hidden md:h-[fit-content] lg:z-3'>
                 <Stats></Stats>
                 <Designed></Designed>
