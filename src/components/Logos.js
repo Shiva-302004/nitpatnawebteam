@@ -13,7 +13,8 @@ const Logos = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className='flex flex-col mt-1 lg:ml-[10vw] mb-3 md:mb-12'>
+        <div className='bg-white'>
+        <div className='flex flex-col mt-1 lg:ml-[10vw] mb-3 md:mb-12 lg:mb-0 lg:mt-0 lg:pb-4'>
             <hr />
             <div className='text-xl font-bold ml-4 mt-2' data-aos="fade-right">Over 1 million cars parked</div>
             <div className='text-xl font-thin ml-4 md:text-[grey]'data-aos="fade-right">on Rollpark for companies like</div>
@@ -31,6 +32,7 @@ const Logos = () => {
                     <li><img className='w-[60px] h-[25px]  ml-4' src={assets9} alt="" /></li>
                 </ul>
             </div>
+        </div>
         </div>
     )
 }

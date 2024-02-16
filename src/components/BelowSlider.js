@@ -13,7 +13,8 @@ const BelowSlider = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className='flex flex-col'>
+        <div className='bg-[#f2f2f2] lg:mb-[50vh]'>
+        <div className='flex flex-col '>
         <div className='mt-9 bg-[#f2f2f2] lg:h-[30vh] '>
             <div className='flex '>
                 <div className='mt-2 md:w-[58.33%] ml-4 md:mt-8 md:mb-8 lg:ml-32' data-aos="fade-up">
@@ -35,6 +36,7 @@ const BelowSlider = () => {
                     <span className='flex mr-3 md:ml-4'><img className='w-[20px] h-[25px] mr-2' src={faq} alt="" /><span>Read FAQ</span></span>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

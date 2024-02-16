@@ -11,8 +11,8 @@ const Footer = () => {
         AOS.init({ duration: 2000 })
     }, [])
     return (
-        <div className=' '>
-            <section className='bg-[#2EBD71] flex  pl-[2.1875em] pt-[1.25em] pr-[1.875em] pb-[1.25em] justify-center items-center  'data-aos="fade-up" data-aos-duration="10000">
+        <div className=' lg:fixed lg:bottom-0 lg:-z-10 lg:w-[100vw] '>
+            <section className='bg-[#2EBD71] flex  pl-[2.1875em] pt-[1.25em] pr-[1.875em] pb-[1.25em] justify-center items-center lg:h-[40vh]   'data-aos="fade-up" data-aos-duration="10000">
                 <div className='flex flex-col justify-center items-center w-[70vw] md:w-auto'>
                     <h1 className='text-xl md:text-3xl font-semibold mb-2'>Request a proposal</h1>
                     <h4 className='text-md opacity-60 font-thin'>Leave your details for our manager to contact you.</h4>

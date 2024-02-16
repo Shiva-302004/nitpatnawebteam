@@ -13,7 +13,7 @@ const Map = () => {
         AOS.init({ duration: 2500 })
     }, [])
     return (
-        <div className=''>
+        <div className='bg-white pt-10 -mt-5'>
             <div className=''>
                 <h1 className='md:flex md:flex-col sm:ml-4 ml-1 lg:ml-10 mr-1 w-[100vw] md:w-auto'><span className='text-sm sm:text-xl font-bold'>Patented cutting edge technology </span><span className='text-sm sm:text-xl font-bold md:font-thin md:text-[grey] mr-1'>backed by decades of experience in construction</span></h1>
                 <div className=' md:flex'>

@@ -7,7 +7,8 @@ const Lists = () => {
         AOS.init({ duration: 2000 })
     }, [])
     return (
-        <div className='mt-5 w-[100vw]  lg:w-[1000px] md:w-[700px]  ' data-aos="fade-up">
+        <div className='bg-white'>
+        <div className='pt-10 w-[100vw]  lg:w-[1000px] md:w-[700px] bg-white ' data-aos="fade-up">
             <h1 className='sm:text-xl lg:px-32  text-md font-bold md:ml-4 ' data-aos="fade-right">A Proven Alternative to Asphalt and Gravel</h1>
             <div className='md:mt-12 mt-6   md:ml-16  lg:ml-[25%] xl:ml-[40%] '>
                 <div className='flex justify-evenly  items-center font-semibold ml-1 w-[100%] md:justify-between   '>
@@ -78,6 +79,7 @@ const Lists = () => {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }
