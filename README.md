@@ -1,3 +1,46 @@
+# Rollpark30 created by shiva verma (2202068) as a task for nit patna official web team 
+
+this project is created with react using libary react-icons React-router-dom react-typewriter aos .
+
+## deployement link:-https://rollpark30.netlify.app/
+
+### components
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/AboveList.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/BelowSlider.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Arrays.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/BelowList.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/ChatBox.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Footer.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Gallery.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Hero.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Lists.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Logos.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Map.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Navbar.js
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Stats.js
+
+# style 
+
+for styling i have used Tailwind css primarily and for wrinting new animation required for the site i have used 
+https://github.com/Shiva-302004/nitpatnawebteam/blob/main/src/components/Navbar.css 
+this Navbar.css file for writing animation.
+
+# animation
+
+for animation i have used aos library (Animate on scroll)
+
+# resources
+
+all the resources like images and video is taken from official site http://rollpark.us/
+all the images are present in assets folder in src 
+
+# responsiveness
+
+all the components is Responsive as per the original site 
+for responsive components i have used tailwind break point sm md lg xl
+
+# from here Create React App documentation.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
